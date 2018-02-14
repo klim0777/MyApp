@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="click_start_color">#D1D1D1</color>
+    <color name="click_end_color">#F1F1F1</color>
+    <color name="click_end_color_bg">#E1E1E1</color>
+    <color name="click_start_color_bg">#F1F1F1</color>
+</resources>

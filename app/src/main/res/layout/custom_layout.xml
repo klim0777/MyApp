@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_row_select"
+    android:orientation="vertical">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dp" />
+    <!---movie title-->
+    <TextView
+        android:id="@+id/tvRocketName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="rocketName"
+        android:textSize="17dp" />
+    <!--rate-->
+    <TextView
+        android:id="@+id/tvLaunchDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRocketName"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="launchDate"
+        android:textSize="15dp" />
+    <!--genre-->
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLaunchDate"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="details"
+        android:textSize="13dp" />
+</RelativeLayout>
